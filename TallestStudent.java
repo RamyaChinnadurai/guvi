@@ -10,8 +10,8 @@ class TallestStudent
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		Scanner s = new Scanner(System.in);
-		int[] h = new int[6];
-		for(int i=0;i<6;i++){
+		int[] h = new int[50];
+		for(int i=0;i<50;i++){
 			h[i] = s.nextInt();
 		}
 		Arrays.sort(h);
